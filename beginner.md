@@ -65,9 +65,9 @@
 
     How do you access the third element in the array `numbers`?
 
-    -   [ ]  `numbers[2]`
+    -   [x]  `numbers[2]`
     -   [ ]  `numbers[3]`
-    -   [x]  `numbers[1]`
+    -   [ ]  `numbers[1]`
     -   [ ]  `numbers[4]`
 ### 6.  Basic String Manipulation
 
