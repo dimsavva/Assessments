@@ -4,11 +4,11 @@
 
     
 
-    ```
+```cs
     int a = 10;
     int b = 20;
     int sum = a + b;
-    ```
+```
 
     What is the value of `sum`?
 
@@ -19,7 +19,7 @@
 2.  Variable Types
 
     
-```
+```cs
     string name = "John Doe";
 ```
     What data type is `name`?
@@ -31,7 +31,7 @@
 3.  For Loop Structure
 
     
-```
+```cs
     for (int i = 0; i < 5; i++) {
         Console.WriteLine(i);
     }
@@ -44,8 +44,7 @@
     -   [ ]  Infinite
 4.  If-Else Condition
 
-    ```
-
+```cs
     int number = 10;
     if (number > 5) {
         return true;
@@ -60,11 +59,9 @@
     -   [ ]  5
     -   [ ]  10
 5.  Arrays
-```
-
-
+```cs
     int[] numbers = {1, 2, 3, 4, 5};
-    ```
+```
 
     How do you access the third element in the array `numbers`?
 
@@ -75,7 +72,7 @@
 6.  Basic String Manipulation
 
     
-```
+```cs
     string greeting = "Hello, World!";
     string sub = greeting.Substring(0, 5);
 ```
@@ -89,7 +86,7 @@
 7.  Understanding Methods
 
     
-```
+```cs
     public int Add(int a, int b) {
         return a + b;
     }
@@ -104,8 +101,7 @@
 9.  Exception Handling
 
     
-```
-
+```cs
     try {
         int x = int.Parse("NotAnInt");
     } catch (FormatException) {
@@ -123,7 +119,10 @@
 
     
 
-    `enum Days {Sun, Mon, Tue, Wed, Thu, Fri, Sat};`
+```cs
+enum Days {Sun, Mon, Tue, Wed, Thu, Fri, Sat};
+```
+
 
     What is `Days.Tue`?
 
@@ -135,8 +134,10 @@
 
     
 
-    `List<int> numbers = new List<int> {1, 2, 3, 4, 5};
-    var evenNumbers = numbers.Where(n => n % 2 == 0);`
+```cs
+List<int> numbers = new List<int> {1, 2, 3, 4, 5};
+    var evenNumbers = numbers.Where(n => n % 2 == 0);
+```
 
     What does `evenNumbers` contain?
 
@@ -148,9 +149,11 @@
 
     
 
-    `public class Car {
+```cs
+public class Car {
         public string Color { get; set; }
-    }`
+    }
+```
 
     How do you set the `Color` of a `Car` object to "Red"?
 
@@ -161,12 +164,13 @@
 13. Constructors
 
     
-
-    `public class Person {
+```cs
+    public class Person {
         public Person() {
             Console.WriteLine("A new person is created.");
         }
-    }`
+    }
+```
 
     What happens when `new Person()` is called?
 
@@ -177,8 +181,8 @@
 14. Static vs Instance Method
 
     
-
-    `public class MathOperations {
+```cs
+    public class MathOperations {
         public static int Multiply(int a, int b) {
             return a * b;
         }
@@ -186,7 +190,8 @@
         public int Subtract(int a, int b) {
             return a - b;
         }
-    }`
+    }
+```
 
     How do you call the `Multiply` method?
 
@@ -197,8 +202,8 @@
 15. Inheritance
 
     
-
-    `public class Animal {
+```cs
+    public class Animal {
         public void Eat() {
             Console.WriteLine("Eating");
         }
@@ -208,7 +213,8 @@
         public void Bark() {
             Console.WriteLine("Barking");
         }
-    }`
+    }
+```
 
     Can an instance of `Dog` call the `Eat` method?
 
@@ -217,8 +223,8 @@
 16. Interfaces
 
     
-
-    `interface IVehicle {
+```cs
+    interface IVehicle {
         void Drive();
     }
 
@@ -226,7 +232,8 @@
         public void Drive() {
             Console.WriteLine("Driving a car");
         }
-    }`
+    }
+```
 
     Is this implementation correct?
 
@@ -235,8 +242,10 @@
 17. Delegates
 
     
+```cs
+    delegate void DisplayMessage(string message);
+```
 
-    `delegate void DisplayMessage(string message);`
 
     What is `DisplayMessage` in this context?
 
@@ -247,8 +256,9 @@
 18. Nullable Types
 
     
-
-    `int? a = null;`
+```cs
+    int? a = null;`
+```
 
     What is the meaning of `int?`?
 
@@ -259,8 +269,10 @@
 19. Using Directives
 
     
+```cs
+    using System.Text;
+```
 
-    `using System.Text;`
 
     What is the purpose of this statement?
 
@@ -271,11 +283,11 @@
 20. Value vs Reference Types
 
     
-
-    `int a = 10;
+```cs
+    int a = 10;
     int b = a;
     b = 20;`
-
+```
     What is the value of `a` after this code executes?
 
     -   [x]  10
@@ -285,10 +297,12 @@
 21. Basic Error Handling
 
     
-
-    `int Divide(int x, int y) {
+```cs
+     int Divide(int x, int y) {
         return x / y;
-    }`
+    }
+```
+
 
     Which exception type might this method throw?
 
