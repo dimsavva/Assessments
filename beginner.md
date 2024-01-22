@@ -1,6 +1,6 @@
-### Beginner C# and .NET Assessment
+## Beginner C# and .NET Assessment
 
-1.  Understanding Basic Syntax
+### 1.  Understanding Basic Syntax
 
     
 
@@ -16,7 +16,7 @@
     -   [ ]  20
     -   [x]  30
     -   [ ]  40
-2.  Variable Types
+### 2.  Variable Types
 
     
 ```cs
@@ -28,7 +28,7 @@
     -   [x]  string
     -   [ ]  bool
     -   [ ]  float
-3.  For Loop Structure
+### 3.  For Loop Structure
 
     
 ```cs
@@ -42,7 +42,7 @@
     -   [x]  5
     -   [ ]  6
     -   [ ]  Infinite
-4.  If-Else Condition
+### 4.  If-Else Condition
 
 ```cs
     int number = 10;
@@ -58,7 +58,7 @@
     -   [ ]  false
     -   [ ]  5
     -   [ ]  10
-5.  Arrays
+### 5.  Arrays
 ```cs
     int[] numbers = {1, 2, 3, 4, 5};
 ```
@@ -69,7 +69,7 @@
     -   [ ]  `numbers[3]`
     -   [x]  `numbers[1]`
     -   [ ]  `numbers[4]`
-6.  Basic String Manipulation
+### 6.  Basic String Manipulation
 
     
 ```cs
@@ -83,7 +83,7 @@
     -   [ ]  "World"
     -   [ ]  "Hello, "
     -   [ ]  "ello"
-7.  Understanding Methods
+### 7.  Understanding Methods
 
     
 ```cs
@@ -98,7 +98,7 @@
     -   [x]  Adds two numbers
     -   [ ]  Multiplies two numbers
     -   [ ]  Divides two numbers
-9.  Exception Handling
+### 8.  Exception Handling
 
     
 ```cs
@@ -115,7 +115,7 @@
     -   [x]  "Format error!"
     -   [ ]  "NotAnInt"
     -   [ ]  An unhandled exception
-11.  Enums
+### 9.  Enums
 
     
 
@@ -130,7 +130,7 @@ enum Days {Sun, Mon, Tue, Wed, Thu, Fri, Sat};
     -   [ ]  1
     -   [x]  2
     -   [ ]  3
-11. LINQ Basics
+### 10. LINQ Basics
 
     
 
@@ -145,7 +145,7 @@ List<int> numbers = new List<int> {1, 2, 3, 4, 5};
     -   [x]  {2, 4}
     -   [ ]  {1, 2, 3, 4, 5}
     -   [ ]  Nothing
-12. Basic Class Definition
+### 11. Basic Class Definition
 
     
 
@@ -161,7 +161,7 @@ public class Car {
     -   [x]  `Car myCar = new Car(); myCar.Color = "Red";`
     -   [ ]  `new Car("Red");`
     -   [ ]  `Car.SetColor("Red");`
-13. Constructors
+### 12. Constructors
 
     
 ```cs
@@ -178,7 +178,7 @@ public class Car {
     -   [x]  "A new person is created." is printed.
     -   [ ]  An error occurs.
     -   [ ]  It creates a person without any output.
-14. Static vs Instance Method
+### 13. Static vs Instance Method
 
     
 ```cs
@@ -199,7 +199,7 @@ public class Car {
     -   [ ]  `MathOperations myMath = new MathOperations(); myMath.Multiply(5, 3);`
     -   [ ]  `Multiply(5, 3);`
     -   [ ]  `new MathOperations().Multiply(5, 3);`
-15. Inheritance
+### 14. Inheritance
 
     
 ```cs
@@ -220,7 +220,7 @@ public class Car {
 
     -   [x]  Yes
     -   [ ]  No
-16. Interfaces
+### 15. Interfaces
 
     
 ```cs
@@ -239,7 +239,7 @@ public class Car {
 
     -   [x]  Yes
     -   [ ]  No
-17. Delegates
+### 16. Delegates
 
     
 ```cs
@@ -253,7 +253,7 @@ public class Car {
     -   [ ]  An interface
     -   [x]  A delegate
     -   [ ]  A method
-18. Nullable Types
+### 17. Nullable Types
 
     
 ```cs
@@ -266,7 +266,7 @@ public class Car {
     -   [x]  Nullable integer
     -   [ ]  Integer with default value 0
     -   [ ]  Integer array
-19. Using Directives
+### 18. Using Directives
 
     
 ```cs
@@ -280,7 +280,7 @@ public class Car {
     -   [ ]  To inherit from the `System.Text` class
     -   [x]  To use the classes and methods in the `System.Text` namespace without namespace qualification
     -   [ ]  To install the `System.Text` library
-20. Value vs Reference Types
+### 19. Value vs Reference Types
 
     
 ```cs
@@ -294,7 +294,7 @@ public class Car {
     -   [ ]  20
     -   [ ]  30
     -   [ ]  0
-21. Basic Error Handling
+### 20. Basic Error Handling
 
     
 ```cs
@@ -311,5 +311,4 @@ public class Car {
     -   [ ]  `FormatException`
     -   [ ]  `NullReferenceException`
 
-    `\
-    `
+
