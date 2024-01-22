@@ -4,9 +4,11 @@
 
     
 
-    ```int a = 10;
+    ```
+    int a = 10;
     int b = 20;
-    int sum = a + b;```
+    int sum = a + b;
+    ```
 
     What is the value of `sum`?
 
@@ -17,9 +19,9 @@
 2.  Variable Types
 
     
-
-    `string name = "John Doe";`
-
+```
+    string name = "John Doe";
+```
     What data type is `name`?
 
     -   [ ]  int
@@ -29,11 +31,11 @@
 3.  For Loop Structure
 
     
-
-    `for (int i = 0; i < 5; i++) {
+```
+    for (int i = 0; i < 5; i++) {
         Console.WriteLine(i);
-    }`
-
+    }
+```
     How many times will the loop execute?
 
     -   [ ]  4
@@ -42,15 +44,15 @@
     -   [ ]  Infinite
 4.  If-Else Condition
 
-    
+    ```
 
-    `int number = 10;
+    int number = 10;
     if (number > 5) {
         return true;
     } else {
         return false;
-    }`
-
+    }
+```
     What does this code return?
 
     -   [x]  true
@@ -58,10 +60,11 @@
     -   [ ]  5
     -   [ ]  10
 5.  Arrays
+```
 
-    
 
-    `int[] numbers = {1, 2, 3, 4, 5};`
+    int[] numbers = {1, 2, 3, 4, 5};
+    ```
 
     How do you access the third element in the array `numbers`?
 
@@ -72,9 +75,10 @@
 6.  Basic String Manipulation
 
     
-
-    `string greeting = "Hello, World!";
-    string sub = greeting.Substring(0, 5);`
+```
+    string greeting = "Hello, World!";
+    string sub = greeting.Substring(0, 5);
+```
 
     What is the value of `sub`?
 
@@ -85,10 +89,11 @@
 7.  Understanding Methods
 
     
-
-    `public int Add(int a, int b) {
+```
+    public int Add(int a, int b) {
         return a + b;
-    }`
+    }
+```
 
     What does this method do?
 
@@ -96,15 +101,17 @@
     -   [x]  Adds two numbers
     -   [ ]  Multiplies two numbers
     -   [ ]  Divides two numbers
-8.  Exception Handling
+9.  Exception Handling
 
     
+```
 
-    `try {
+    try {
         int x = int.Parse("NotAnInt");
     } catch (FormatException) {
         Console.WriteLine("Format error!");
-    }`
+    }
+```
 
     What will be the output?
 
@@ -112,7 +119,7 @@
     -   [x]  "Format error!"
     -   [ ]  "NotAnInt"
     -   [ ]  An unhandled exception
-9.  Enums
+11.  Enums
 
     
 
@@ -124,7 +131,7 @@
     -   [ ]  1
     -   [x]  2
     -   [ ]  3
-10. LINQ Basics
+11. LINQ Basics
 
     
 
@@ -137,7 +144,7 @@
     -   [x]  {2, 4}
     -   [ ]  {1, 2, 3, 4, 5}
     -   [ ]  Nothing
-11. Basic Class Definition
+12. Basic Class Definition
 
     
 
@@ -151,7 +158,7 @@
     -   [x]  `Car myCar = new Car(); myCar.Color = "Red";`
     -   [ ]  `new Car("Red");`
     -   [ ]  `Car.SetColor("Red");`
-12. Constructors
+13. Constructors
 
     
 
@@ -167,7 +174,7 @@
     -   [x]  "A new person is created." is printed.
     -   [ ]  An error occurs.
     -   [ ]  It creates a person without any output.
-13. Static vs Instance Method
+14. Static vs Instance Method
 
     
 
@@ -187,7 +194,7 @@
     -   [ ]  `MathOperations myMath = new MathOperations(); myMath.Multiply(5, 3);`
     -   [ ]  `Multiply(5, 3);`
     -   [ ]  `new MathOperations().Multiply(5, 3);`
-14. Inheritance
+15. Inheritance
 
     
 
@@ -207,7 +214,7 @@
 
     -   [x]  Yes
     -   [ ]  No
-15. Interfaces
+16. Interfaces
 
     
 
@@ -225,7 +232,7 @@
 
     -   [x]  Yes
     -   [ ]  No
-16. Delegates
+17. Delegates
 
     
 
@@ -237,7 +244,7 @@
     -   [ ]  An interface
     -   [x]  A delegate
     -   [ ]  A method
-17. Nullable Types
+18. Nullable Types
 
     
 
@@ -249,7 +256,7 @@
     -   [x]  Nullable integer
     -   [ ]  Integer with default value 0
     -   [ ]  Integer array
-18. Using Directives
+19. Using Directives
 
     
 
@@ -261,7 +268,7 @@
     -   [ ]  To inherit from the `System.Text` class
     -   [x]  To use the classes and methods in the `System.Text` namespace without namespace qualification
     -   [ ]  To install the `System.Text` library
-19. Value vs Reference Types
+20. Value vs Reference Types
 
     
 
@@ -275,7 +282,7 @@
     -   [ ]  20
     -   [ ]  30
     -   [ ]  0
-20. Basic Error Handling
+21. Basic Error Handling
 
     
 
