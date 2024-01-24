@@ -13,9 +13,7 @@ Creating an assessment for intermediate-level candidates in C# and .NET involves
                where num % 2 == 0
 
                select num;
-
-   ```
-
+```
    What does `query` contain?
 
    - [ ] {1, 3, 5}
@@ -36,8 +34,7 @@ Creating an assessment for intermediate-level candidates in C# and .NET involves
        return await GetData();
 
    }
-
-   ```
+```
 
    What is the purpose of `await` in this code?
 
@@ -62,7 +59,7 @@ Creating an assessment for intermediate-level candidates in C# and .NET involves
 
    }
 
-   ```
+```
 
    How do you use this extension method on a string `"World"`?
 
@@ -81,7 +78,7 @@ Creating an assessment for intermediate-level candidates in C# and .NET involves
 
    public event MyDelegate MyEvent;
 
-   ```
+```
 
    What is the key difference between `MyDelegate` and `MyEvent`?
 
@@ -106,7 +103,7 @@ Creating an assessment for intermediate-level candidates in C# and .NET involves
 
    }
 
-   ```
+```
 
    What is the effect of using `throw` in this catch block?
 
@@ -127,7 +124,7 @@ Creating an assessment for intermediate-level candidates in C# and .NET involves
 
    }
 
-   ```
+```
 
    What happens at the end of the `using` block?
 
@@ -148,7 +145,7 @@ Creating an assessment for intermediate-level candidates in C# and .NET involves
 
    }
 
-   ```
+```
 
    What feature of C# does this method demonstrate?
 
@@ -169,7 +166,7 @@ Creating an assessment for intermediate-level candidates in C# and .NET involves
 
    });
 
-   ```
+```
 
    What is the purpose of this code?
 
@@ -188,7 +185,7 @@ Creating an assessment for intermediate-level candidates in C# and .NET involves
 
    var length = name?.Length;
 
-   ```
+```
 
    What is the value of `length`?
 
@@ -207,7 +204,7 @@ Creating an assessment for intermediate-level candidates in C# and .NET involves
  ```csharp
     var users = context.Users.Include(u => u.Orders).ToList();
 
-    ```
+ ```
 
     - [x] Retrieves all users and their associated orders.
 
@@ -242,7 +239,7 @@ Dependency Injection in .NET Core**
 
     }
 
-    ```
+ ```
 
     What is a potential issue with this code?
 
@@ -261,7 +258,7 @@ Dependency Injection in .NET Core**
 
     var methods = type.GetMethods();
 
-    ```
+ ```
 
     What does this code snippet demonstrate?
 
@@ -308,7 +305,7 @@ Dependency Injection in .NET Core**
 
     }
 
-    ```
+ ```
 
     What is this code demonstrating?
 
@@ -343,7 +340,7 @@ Dependency Injection in .NET Core**
 
     }
 
-    ```
+ ```
 
     What C# feature is used here?
 
